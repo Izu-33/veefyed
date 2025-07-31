@@ -111,8 +111,10 @@ with open('response_data.json', 'w', encoding='utf-8') as f:
 
 📝 Notes
 - Limitations:
+  - To reproduce this, a new token and auth credentials would need to generated again from the browser. 
+  
   - Ingredients are extracted from product titles (full lists not always available).
 
   - Due to limited data extracted, only one grouping was possible out of the list of 8 products.
 
-  - This method might not be the best for scraping data from this site on a continuous basis. A superb solution would be a paid service such as **Apify Snapklik Scraper**, which was built for the sole purpose of extracting data from Snapklik. Different web browser were used just to make this little progress. Using a paid service like **Apify ($12/month)** will help simplify this process and resolve the GDPR issue one often encounters while web scraping, especially if this is going to be done on a continuous basis.
+  - This method might not be the best for scraping data from this site on a continuous basis. A superb solution would be a paid service such as [**Apify Snapklik Scraper**](https://apify.com/getdataforme/snapklink-scraper/pricing), which was built for the sole purpose of extracting data from Snapklik. Different web browser were used just to make this little progress. Using a paid service like **Apify ($12/month)** will help simplify this process and resolve the GDPR issue one often encounters while web scraping, especially if this is going to be done on a continuous basis.
